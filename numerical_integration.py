@@ -21,7 +21,7 @@ def numerical_integration(answer, start, end, increment):
         Lower bound of the integral
     end: float
         Upper bound of the integral
-    increment: float
+    increment: array float
         Step size for increasing the x value
 
     :return:
