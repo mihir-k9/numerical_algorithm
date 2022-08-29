@@ -9,7 +9,8 @@ def integral(v): return math.sin(v) ** 2
 def numerical_integration(answer, start, end, increment):
     """
     A method to calculate the error between analytical value of an integral and numerical value using
-    3 integration formulae: Rectangular, Trapezoidal and Simpson's Rule.
+    3 integration formulae: Rectangular, Trapezoidal and Simpson's Rule. Use integral() defined above to
+    change the function to be integrated.
 
     The for loop uses the function integral() to compute values.
 
