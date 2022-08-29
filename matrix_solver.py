@@ -53,7 +53,7 @@ def tri_d_solve(a, b, c, d):
     d: array float
 
     :return:
-    x: flaat array
+    x: float array
         Solution to Ax = d
 
     """
